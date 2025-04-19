@@ -1,4 +1,5 @@
 'use client';
+import React from "react";
 import { motion } from "framer-motion";
 import { FaEnvelope, FaPhoneAlt, FaGithub, FaMapMarkerAlt } from "react-icons/fa";
 
@@ -39,7 +40,7 @@ export default function Contact() {
   );
 }
 
-function ContactItem({ icon, label, value, href }: { icon: JSX.Element; label: string; value: string; href?: string }) {
+function ContactItem({ icon, label, value, href }: { icon: React.ReactNode; label: string; value: string; href?: string }) {
   return (
     <div className="flex items-center gap-4 bg-white/10 p-4 rounded-lg shadow">
       <div className="text-xl text-yellow-300">{icon}</div>
