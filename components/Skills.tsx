@@ -1,6 +1,6 @@
 'use client';
 import { motion } from "framer-motion";
-import { FaReact, FaNodeJs, FaGithub, FaDatabase, FaAndroid, FaCss3Alt, FaHtml5 } from "react-icons/fa";
+import { FaReact, FaGithub, FaDatabase, FaAndroid, FaHtml5 } from "react-icons/fa";
 import { SiTypescript, SiFirebase, SiTailwindcss, SiPostgresql, SiOracle } from "react-icons/si";
 
 const categories = [

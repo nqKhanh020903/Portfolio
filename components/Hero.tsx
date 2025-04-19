@@ -16,7 +16,7 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
         >
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-4 text-white">
-            Hi, I'm <span className="text-yellow-400">Nguyễn Quốc Khánh</span>
+            Hi, I&apos;m <span className="text-yellow-400">Nguyễn Quốc Khánh</span>
           </h1>
           <p className="text-lg md:text-xl text-zinc-300 mb-6">
             A passionate Front-End & Mobile Developer who loves building

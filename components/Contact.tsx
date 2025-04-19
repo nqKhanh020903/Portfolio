@@ -21,7 +21,7 @@ export default function Contact() {
         transition={{ duration: 0.6, delay: 0.2 }}
         viewport={{ once: false }}
       >
-        Feel free to reach out to me via any of the platforms below. I'm always open to collaboration or new opportunities!
+        Feel free to reach out to me via any of the platforms below. I&apos;m always open to collaboration or new opportunities!
       </motion.p>
       <motion.div
         className="grid grid-cols-1 md:grid-cols-2 gap-6 justify-center items-center text-left"
