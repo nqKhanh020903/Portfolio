@@ -43,6 +43,17 @@ const projects = [
     tech: ["NextJS 14", "TypeScript", "Tailwind", "Prisma", "PostgreSQL", "Stripe"],
     github: "https://github.com/nqKhanh020903/OpLung",
   },
+  {
+    title: "AI Chatbot for Vietnamese Herbal Medicine",
+    description:
+      "A chatbot application that helps users ask about symptoms and receive suggestions for suitable medicinal herbs. Uses Gemini API, analyzes herbal data from Firebase, and displays results using ReactJS.",
+    images: [
+      "/images/chatbot/1.png",
+      "/images/chatbot/2.png",
+    ],
+    tech: ["ReactJS", "Gemini API", "Firebase", "TailwindCSS"],
+    github: "https://github.com/nqKhanh020903/chatbot_herb",
+  },
 ];
 
 export default function Projects() {
